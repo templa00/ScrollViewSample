@@ -8,22 +8,10 @@ using UnityEngine;
 public class ScrollViewCtrl : MonoBehaviour
 {
     /// <summary>
-    /// コンテンツの短径の情報
-    /// </summary>
-    [SerializeField]
-    private RectTransform contentRect = null;
-
-    /// <summary>
     /// ステージリスト
     /// </summary>
     [SerializeField]
     private GameObject stageListObj = null;
-
-    /// <summary>
-    /// ボタンオブジェクト
-    /// </summary>
-    [SerializeField]
-    private GameObject baseBtnObj = null;
 
     /// <summary>
     /// 開始
