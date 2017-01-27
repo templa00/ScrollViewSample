@@ -1,5 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
+/**
+ 　ScrollViewSample
+
+    Copyright (c) 2017 templa00
+
+    This software is released under the MIT License.
+    http://opensource.org/licenses/mit-license.php
+*/
+
 using UnityEngine;
 
 /// <summary>
@@ -8,22 +16,10 @@ using UnityEngine;
 public class ScrollViewCtrl : MonoBehaviour
 {
     /// <summary>
-    /// コンテンツの短径の情報
-    /// </summary>
-    [SerializeField]
-    private RectTransform contentRect = null;
-
-    /// <summary>
     /// ステージリスト
     /// </summary>
     [SerializeField]
     private GameObject stageListObj = null;
-
-    /// <summary>
-    /// ボタンオブジェクト
-    /// </summary>
-    [SerializeField]
-    private GameObject baseBtnObj = null;
 
     /// <summary>
     /// 開始
